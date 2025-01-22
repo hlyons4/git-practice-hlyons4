@@ -56,3 +56,8 @@
    85  git status
    89  git log --oneline > gitlog.txt
    90  history | grep git > history.txt
+   91  git add gitlog.txt history.txt
+   92  git commit -m 'Add gitlog and history files'
+   93  git push origin main
+   94  git log --oneline > gitlog.txt
+   95  history | grep git > history.txt

@@ -61,3 +61,11 @@
    93  git push origin main
    94  git log --oneline > gitlog.txt
    95  history | grep git > history.txt
+   96  git add gitlog.txt history.txt
+   97  git commit -m 'trying this again'
+   98  git push origin main
+  102  cd git-practice-hlyons4
+  103  git clone https://github.com/hlyons4/git-practice-hlyons4.git
+  104  cd git-practice-hlyons4
+  105  git log --oneline > gitlog.txt
+  106  history | grep git > history.txt

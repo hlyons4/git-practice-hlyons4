@@ -69,3 +69,52 @@
   104  cd git-practice-hlyons4
   105  git log --oneline > gitlog.txt
   106  history | grep git > history.txt
+  107  git add gitlog.txt history.txt
+  108  git commit -m 'Add git log and history files'
+  109  git push origin main
+  110  git push origin main
+  111  git status
+  115  cd git-practice-hlyons4
+  118  git status
+  119  git add file_1.txt file_2.txt
+  120  git commit -m 'added another file 1 and file 2'
+  121  git statu
+  122  git status
+  123  git log
+  124  git nano file_1.txt
+  127  git status
+  128  git add file_1.txt
+  129  git add file_2.txt
+  130  git commit -m 'Updated file 1 and 2'
+  131  git status
+  132  git log
+  134  git status
+  135  git add Readme.md
+  136  git commit -m 'Modified Readme.md'
+  137  git push origin main
+  138  git checkout -b features
+  139  git checkout features
+  140  git log --oneline
+  142  git add new_features.txt
+  143  git commit -m 'added more empty files'
+  145  git add new_features.txt
+  146  git commit -m 'Added more content to new_features.txt'
+  147  git log --oneline
+  148  git checkout main
+  150  git add file_1.txt
+  151  git commit -m 'Added a newer line to file_1.txt'
+  152  git merge features
+  153  git log --oneline
+  154  git checkout main
+  157  git add new_features.txt
+  158  git commit -m 'updated new_features.txt on main branch'
+  159  git checkout features
+  161  git add new_features.txt
+  162  git commit -m 'updated new_features.txt on features branch again'
+  163  git checkout main
+  164  git merge features
+  165  git add new_features.txt
+  166  git commit -m 'resolve merge conflicts again'
+  167  git branch -d features
+  168  git log --oneline > gitlog.txt
+  169  history | grep git > history.txt

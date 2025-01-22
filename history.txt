@@ -1,0 +1,58 @@
+    1  git clone git@fithub.com:rhodes-byu/CS180.git
+    2  git --version
+    3  git config --global use.name "Hannah Lyons"
+    4  git config --global user.email "hannahlyons343@gmail.com"
+    5  git config --global core.editor "code --wait"
+    6  git config -- global init.defaultBranch main
+    7  git config --global core.editor code --wait
+    8  git config --global core.editor "codium --wait"
+    9  git config --global init.defaultBranch main
+   10  git --version
+   11  git --version
+   12  git config --global init.defaultBranch main
+   13  git config --global core.editor "code --wait"
+   14  git config --global user.email 'hannahlyons343@gmail.com'
+   15  git config --list
+   16  git config --global init.defaultBranch main
+   23  mkdir gitPractice
+   24  cd git ini
+   25  git init
+   26  git status
+   32  git init
+   46  git add _config.yml
+   47  git commit -m 'Updated _config.yml with my blog details'
+   48  git push origin main
+   50  git add About.md
+   51  git commit -m 'Updated About.md'
+   52  git push origin main
+   54  git add _config.yml
+   55  git commit -m 'Fixed YAML syntax error in _config.yml'
+   56  git push origin main
+   57  git clone git@github.com:hlyons4/git-practice-kelsjens.git
+   58  cd git-practice-kelsjens
+   59  git checkout -b feature-hlyons4
+   60  echo "My name is Hannah, and I am learning git" > hannah_contribution.txt
+   63  git add .
+   64  git commit -m 'Added a contribution file with my name'
+   65  git push origin feature-hlyons4
+   66  git add .
+   67  git commit -m 'updated file with requested changes'
+   68  git add .
+   69  git commit -m 'updated file with requested changes.'
+   70  cd git-practice-kelsjens
+   71  git pull origin main
+   72  git log --oneline --graph --all
+   73  git status
+   75  git branch -d feature-hlyons4
+   76  git push origin --delete feature-hlyons4
+   77  git branch -d feature-hlyons4
+   78  git checkout main
+   79  git branch -d feature-hlyons4
+   80  git log --oneline --graph --decorate --all
+   81  git branch -D feature-hlyons4
+   82  git branch
+   83  cd ~/git-practice-hlyons4
+   84  git remote -v
+   85  git status
+   89  git log --oneline > gitlog.txt
+   90  history | grep git > history.txt

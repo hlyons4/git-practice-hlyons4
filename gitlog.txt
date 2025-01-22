@@ -1,0 +1,13 @@
+9aeaf33 Resolved merge conflict in new_features.txt
+1931f68 Updated new_features.txt in features branch
+a2efa9d Updated new_features.txt in main branch
+8f00d8c Merge branch 'features' Merge features branch into main
+1e6a9f0 Updated file_1.txt by adding new line of text
+dd08a81 Updated new_features.txt with feature description
+5f3cd7b add empty file
+69debfc added text to gitignore
+ba86fb1 ignored files
+1bf3c28 Created a read me with a title and description
+b0dacff Wrote in second file as well
+af34294 Wrote in first file
+dc2f041 create new files

@@ -1,4 +1,4 @@
-#My Title!
+#My Title
 
-This is the description of the purpose of this file.
+This is the description of the purpose of this.
 
